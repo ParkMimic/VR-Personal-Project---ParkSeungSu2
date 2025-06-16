@@ -13,9 +13,6 @@ public class ButtonTrigged : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("rightHand"))
-        {
-            ori_mat.material.color = Color.yellow;
-        }
+
     }
 }
